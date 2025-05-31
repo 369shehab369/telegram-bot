@@ -21,10 +21,10 @@ import numpy as np
 from io import BytesIO
 
 # ===== الإعدادات =====
-TELEGRAM_TOKEN = "7785816954:AAHElM9raWKD4TuKt98Vv1DwSZLmQeAn0WY"
-ZOOMEYE_API_KEY = "960D7ec8-8e4b-cf8f9-5a56-992fac05cf7"
-ADMIN_CHAT_ID = "8009705068"
-COMMAND_PREFIX = "!"
+TELEGRAM_TOKEN = os.getenv("7785816954:AAHElM9raWKD4TuKt98Vv1DwSZLmQeAn0WY")
+ZOOMEYE_API_KEY = os.getenv("960D7ec8-8e4b-cf8f9-5a56-992fac05cf7")
+ADMIN_CHAT_ID = os.getenv("8009705068")
+COMMAND_PREFIX = os.getenv("COMMAND_PREFIX", "!")
 # =====================
 
 # متغيرات عامة
